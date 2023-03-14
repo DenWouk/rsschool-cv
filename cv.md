@@ -19,11 +19,13 @@
 ### Code Example
 
  function reverseNum(number) {
+
   const num = Math.abs(number);
   const stringFromNum = String(num);
   const result = stringFromNum.split('').reverse().join('');
 
   return Number(result);
+  
 }
 
 ***
